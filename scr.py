@@ -7,7 +7,7 @@ import time
 
 class SitemapSeeker:
     def __init__(self):
-        if len(sys.argv) > 1 and sys.argv[1].find("sitemap") > -1:
+        if len(sys.argv) > 1:
             self.link = sys.argv[1]
         else:
             print(
